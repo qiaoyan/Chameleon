@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.license      		= { :type => "MIT", :file => "LICENSE.md" }
   s.author       		= "Vicc Alexander"
   s.social_media_url   	= "http://twitter.com/ViccsMind"
-  s.platform     		= :ios
   s.ios.deployment_target = '8.0'
+  s.tvos.deployment_target = '10.0'
   s.source       		= { :git => "https://github.com/ViccAlexander/Chameleon.git", 
                      		:tag => s.version.to_s }
 
